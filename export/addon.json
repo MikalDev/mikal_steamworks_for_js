@@ -1,0 +1,32 @@
+{
+  "is-c3-addon": true,
+  "type": "plugin",
+  "name": "Steamworks for js",
+  "id": "mikal_steamworks_for_js",
+  "version": "1.0.0",
+  "author": "Mikal",
+  "website": "https://www.construct.net",
+  "documentation": "https://www.construct.net",
+  "description": "Description",
+  "editor-scripts": [
+    "editor.js"
+  ],
+  "file-list": [
+    "c3runtime/actions.js",
+    "c3runtime/conditions.js",
+    "c3runtime/expressions.js",
+    "c3runtime/instance.js",
+    "c3runtime/plugin.js",
+    "c3runtime/type.js",
+    "lang/en-US.json",
+    "aces.json",
+    "addon.json",
+    "icon.svg",
+    "editor.js",
+    "c3runtime/steamworks.js",
+    "c3runtime/steamworksjs.win32-x64-msvc.node",
+    "c3runtime/steamworksjs.darwin-x64.node",
+    "c3runtime/libsteam_api.dylib",
+    "c3runtime/steam_api64.dll"
+  ]
+}

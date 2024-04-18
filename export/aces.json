@@ -1,0 +1,36 @@
+{
+  "general": {
+    "conditions": [],
+    "actions": [
+      {
+        "id": "Initialize",
+        "scriptName": "Initialize",
+        "highlight": true,
+        "deprecated": false,
+        "isAsync": true,
+        "params": [
+          {
+            "id": "appId",
+            "type": "number",
+            "initialValue": 0
+          }
+        ]
+      },
+      {
+        "id": "SetAchievement",
+        "scriptName": "SetAchievement",
+        "highlight": true,
+        "deprecated": false,
+        "isAsync": true,
+        "params": [
+          {
+            "id": "achievementId",
+            "type": "string",
+            "initialValue": ""
+          }
+        ]
+      }
+    ],
+    "expressions": []
+  }
+}

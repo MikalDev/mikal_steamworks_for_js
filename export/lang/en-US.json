@@ -1,0 +1,48 @@
+{
+  "languageTag": "en-US",
+  "fileDescription": "Strings for mikal_steamworks_for_js.",
+  "text": {
+    "plugins": {
+      "mikal_steamworks_for_js": {
+        "name": "Steamworks for js",
+        "description": "Description",
+        "help-url": "https://www.construct.net",
+        "aceCategories": {
+          "general": "General"
+        },
+        "properties": {
+          "undefined": {
+            "name": "Steam App Id",
+            "desc": "Steam App Id, 480 is a steam test id"
+          }
+        },
+        "actions": {
+          "Initialize": {
+            "list-name": "Initialize Steamworks",
+            "display-text": "Initialize Steamworks, app id [i]{0}[/i]",
+            "description": "Initialize Steamworks",
+            "params": {
+              "appId": {
+                "name": "Application Id",
+                "desc": "Steam application id"
+              }
+            }
+          },
+          "SetAchievement": {
+            "list-name": "Set Achievement",
+            "display-text": "Set achievement [i]{0}[/i]",
+            "description": "Set achievement",
+            "params": {
+              "achievementId": {
+                "name": "Achievement Id",
+                "desc": "Steam achievement id"
+              }
+            }
+          }
+        },
+        "conditions": {},
+        "expressions": {}
+      }
+    }
+  }
+}
